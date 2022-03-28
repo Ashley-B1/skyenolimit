@@ -1,7 +1,9 @@
+import Introduction from "./components/Introduction";
+
 function App() {
   return (
     <div className="App">
-      hello from react
+      <Introduction />
     </div>
   );
 }
