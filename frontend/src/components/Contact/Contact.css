@@ -65,4 +65,33 @@
 .cc-right {
   border: solid blue 2px;
   flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.6rem;
+}
+
+.contact-note {
+  border: solid green 2px;
+  padding: 1.2rem;
+  width: 35rem;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.cn-title {
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;;
+}
+
+.cn-note {
+  margin-bottom: 2rem;
+  text-indent: 0.8rem;
+}
+
+.cn-icon {
+  color: #AACDFA
 }

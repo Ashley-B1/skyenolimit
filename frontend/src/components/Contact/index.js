@@ -4,6 +4,10 @@ import './Contact.css';
 import contactBg from '../../images/bg-photos/contact-bg3.jpeg';
 import devPhoto from '../../images/dev-photos/dev1.jpeg';
 
+import { GrLocation } from 'react-icons/gr'
+import { BsPhone } from 'react-icons/bs'
+import { AiOutlineMail } from 'react-icons/ai'
+
 const Contact = () => {
   return (
     <div className='contact-container' style={{background: `url(${contactBg}) center no-repeat`}}>
@@ -32,7 +36,30 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className='cc-right'>right</div>
+        <div className='cc-right'>
+          <div className='contact-note'>
+            <h2 className='cn-title'>
+              Keep In Touch!
+            </h2>
+            <p className='cn-note'>
+              Dragée chupa chups lollipop chocolate cake liquorice. Dragée gummies gummies tart cookie chocolate. Liquorice chocolate bar tootsie roll croissant sweet roll candy canes. Macaroon muffin caramels jelly-o liquorice oat cake bear claw sweet jelly beans. Cake sweet roll tootsie roll fruitcake halvah tootsie roll croissant soufflé.
+            </p>
+            <div className='cn-info'>
+              <p className='cn-details'>
+                <GrLocation className='cn-icon' />
+                <span className='cn-data'>Dallas, TX (Willing to relocate to Georgia, Oklahoma, or Arkansas)</span>
+              </p>
+              <p className='cn-details'>
+                <BsPhone className='cn-icon'/>
+                <span className='cn-data'>+1 (469) 992-0704</span>
+              </p>
+              <p className='cn-details'>
+                <span className='cn-icon'><AiOutlineMail /></span>
+                <span className='cn-data'>stormi.seuneu@outlook.com</span>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
