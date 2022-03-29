@@ -4,9 +4,11 @@ import './Contact.css';
 import contactBg from '../../images/bg-photos/contact-bg3.jpeg';
 import devPhoto from '../../images/dev-photos/dev1.jpeg';
 
-import { GrLocation } from 'react-icons/gr'
-import { BsPhone } from 'react-icons/bs'
-import { AiOutlineMail } from 'react-icons/ai'
+
+import { IoLocationOutline } from 'react-icons/io5';
+import { BsPhone } from 'react-icons/bs';
+import { FiMail } from 'react-icons/fi';
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -46,17 +48,23 @@ const Contact = () => {
             </p>
             <div className='cn-info'>
               <p className='cn-details'>
-                <GrLocation className='cn-icon' />
-                <span className='cn-data'>Dallas, TX (Willing to relocate to Georgia, Oklahoma, or Arkansas)</span>
+                <IoLocationOutline className='cn-icon' />
+                <span className='cn-data'>Dallas, TX </span>
+                <span className='relocate'>(Willing to relocate to Georgia, Oklahoma, or Arkansas)
+                </span>
               </p>
               <p className='cn-details'>
-                <BsPhone className='cn-icon'/>
+                <BsPhone className='cn-icon' />
                 <span className='cn-data'>+1 (469) 992-0704</span>
               </p>
               <p className='cn-details'>
-                <span className='cn-icon'><AiOutlineMail /></span>
+                <FiMail className='cn-icon' />
                 <span className='cn-data'>stormi.seuneu@outlook.com</span>
               </p>
+              <div className='social-media'>
+                <FaLinkedinIn className='sm-icon' />
+                <FaGithub className='sm-icon' />
+              </div>
             </div>
           </div>
         </div>

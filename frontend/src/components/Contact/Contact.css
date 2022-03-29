@@ -7,7 +7,7 @@
 }
 
 .contact-card {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
   width: 100rem;
   height: 40rem;
   padding: 0.5rem;
@@ -19,7 +19,6 @@
 }
 
 .cc-left {
-  border: solid red 2px;
   padding: 0.5rem;
   flex: 1;
   display: flex;
@@ -63,7 +62,6 @@
 }
 
 .cc-right {
-  border: solid blue 2px;
   flex: 1;
   display: flex;
   align-items: center;
@@ -72,7 +70,6 @@
 }
 
 .contact-note {
-  border: solid green 2px;
   padding: 1.2rem;
   width: 35rem;
   height: min-content;
@@ -92,6 +89,28 @@
   text-indent: 0.8rem;
 }
 
+.cn-info {
+  padding: 0.3rem 0rem;
+}
+
+.cn-details {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 0.6rem;
+}
+
+.relocate {
+  font-size: 1.3ch;
+  margin-left: 0.5rem;
+}
+
 .cn-icon {
-  color: #AACDFA
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.sm-icon {
+  font-size: 1.5rem;
+  margin-left: 0.6rem;
+  margin-top: 0.8rem;
 }
