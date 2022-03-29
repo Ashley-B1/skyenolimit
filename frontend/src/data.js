@@ -5,16 +5,19 @@
 export const products = [
   {
     id: 1,
+    name: 'Granny Sues',
     img: 'https://i.ibb.co/QXFQ412/grannysues.png',
     link: '/'
   },
   {
     id: 2,
-    img: 'https://i.ibb.co/VgxX1wS/rising-sign.png',
+    name: 'Bag Lady Blogs',
+    img: 'https://i.ibb.co/jrKgZJh/bag-lady.png',
     link: '/'
   },
   {
     id: 3,
+    name: 'Skye High',
     img: 'https://i.ibb.co/28xyjfs/skye-high.png',
     link: '/'
   },

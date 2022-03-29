@@ -2,6 +2,7 @@
   height: 100vh;
   display: flex;
   align-items: center;
+  background-color: #353535;
 }
 
 .about-left {
@@ -11,10 +12,12 @@
   justify-content: center;
   position: relative;
   height: 100%;
+  background-color: transparent;
 }
 
 .about-right {
-  flex: 1
+  flex: 1;
+  background-color: transparent;
 }
 
 .about-card.bg {
@@ -40,12 +43,15 @@
 
 .about-title {
   font-weight: 400;
+  background-color: transparent;
 }
 
 .about-sub {
   margin: 20px 0px;
+  background-color: transparent;
 }
 
 .about-desc {
   font-weight: 300;
+  background-color: transparent;
 }
