@@ -1,0 +1,68 @@
+.contact-container {
+  height: 100vh;
+  max-height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-card {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100rem;
+  height: 40rem;
+  padding: 0.5rem;
+  display: flex;
+}
+
+.contact-card * {
+  background-color: transparent;
+}
+
+.cc-left {
+  border: solid red 2px;
+  padding: 0.5rem;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cc-image {
+  width: 15rem;
+  height: min-content;
+}
+
+.dev-details {
+  line-height: 3rem;
+  padding: 2rem;
+}
+
+.info-title {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.cc-data {
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+.resume-link {
+  color: #AACDFA;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: 0.2s ease-out;
+}
+
+.resume-link:hover {
+  transition: 0.2s ease-out;
+  font-size: 1.4rem;
+  color: #DEAAFA;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cc-right {
+  border: solid blue 2px;
+  flex: 1;
+}
