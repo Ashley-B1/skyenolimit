@@ -10,7 +10,8 @@ const Product = ({ img, link }) => {
         <div className='product-circle'></div>
         <div className='product-circle'></div>
       </div>
-      <div className='app-snippet' style={{background: `url(${img}) center no-repeat cover`, height: '100vh'}}></div>
+      {/* <div className='app-snippet' style={{background: `url(${img}) center no-repeat cover`, height: '100vh'}}></div> */}
+      <img src={img} alt='app' className='product-image'/>
     </div>
   )
 }

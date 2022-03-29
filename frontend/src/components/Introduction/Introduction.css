@@ -68,12 +68,13 @@
 }
 
 .intro-img {
-  width: 80%;
-  height: 80%;
+  /* width: 100rem; */
+  height: 100%;
   object-fit: cover;
   position: absolute;
   bottom: 0;
   right: 0;
+  background-color: transparent;
 }
 
 .intro-bg {

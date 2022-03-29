@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './Introduction.css'
-import devPhoto from '../../images/dev-photos/dev2.png'
+import devPhoto from '../../images/dev-photos/dev06.png'
 
 const Introduction = () => {
   return (
