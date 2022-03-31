@@ -87,8 +87,12 @@
   right: 0;
 }
 
-/* @media screen and (max-width: 400px) {
-  .intro-left {
-    height: 100%;
+@media screen and (max-width: 480px) {
+  .intro {
+    flex-direction: column;
   }
-} */
+
+  .intro-right {
+    margin-top: 100px;
+  }
+}

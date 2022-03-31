@@ -34,7 +34,7 @@ const Contact = () => {
               <span className='cc-data'>+1 (469) 992-0704</span>
             </p>
             <div className='cc-resume'>
-              <a className='resume-link' href='https://youtu.be/dQw4w9WgXcQ'>Resumé</a>
+              <a className='resume-link' rel="noreferrer noopener" target="_blank" href='https://docs.google.com/document/d/1YVXkiY5soZpUe82Pbo9xyGI2XD-WC0jVfgSbT8PjjIU/edit'>Resumé</a>
             </div>
           </div>
         </div>

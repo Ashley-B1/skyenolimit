@@ -55,3 +55,25 @@
   font-weight: 300;
   background-color: transparent;
 }
+
+
+
+@media screen and (max-width: 480px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .about-left {
+    width: 100%;
+    margin: 0;
+  }
+
+  .about-card {
+    width: 22.2rem;
+    height: 20rem;
+  }
+
+  .about-right {
+    padding: 1.6rem;
+  }
+}
