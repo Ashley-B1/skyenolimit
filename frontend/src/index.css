@@ -6,3 +6,7 @@
   background-color: #181a1b;
   color: #fff;
 }
+
+body {
+  height: 100vh;
+}

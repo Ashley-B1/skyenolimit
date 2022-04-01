@@ -90,9 +90,23 @@
 @media screen and (max-width: 480px) {
   .intro {
     flex-direction: column;
+    width: 100%
   }
 
-  .intro-right {
-    margin-top: 100px;
+  .intro-left-wrapper {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
   }
+
+  /* .intro-title {
+    border: solid pink 2px;
+  } */
+
+  .intro-right {
+    margin-top: 0;
+  }
+
 }

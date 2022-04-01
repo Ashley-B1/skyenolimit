@@ -23,3 +23,10 @@
   transition: ease-in 0.2s;
   text-decoration: underline;
 }
+/*
+@media screen and (max-width: 480px) {
+  .footer {
+    position: relative;
+    bottom: -90;
+  }
+} */
