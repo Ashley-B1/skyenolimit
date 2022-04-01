@@ -7,18 +7,18 @@ export const products = [
     id: 1,
     name: 'Granny Sues',
     img: 'https://i.ibb.co/QXFQ412/grannysues.png',
-    link: '/'
+    link: 'https://grannysues.netlify.app/'
   },
   {
     id: 2,
-    name: 'Bag Lady Blogs',
-    img: 'https://i.ibb.co/jrKgZJh/bag-lady.png',
-    link: '/'
+    name: 'Rabbit Hole',
+    img: 'https://i.ibb.co/JdrqnLS/rabbit-hole.png',
+    link: 'https://rabbit-hole-gp.herokuapp.com/'
   },
   {
     id: 3,
-    name: 'Skye High',
-    img: 'https://i.ibb.co/28xyjfs/skye-high.png',
-    link: '/'
+    name: 'Scary Spaghetti',
+    img: 'https://i.ibb.co/8BwKpVv/screenshot-scaryspaghetti-netlify-app-2022-03-31-20-39-36.png',
+    link: 'https://scaryspaghetti.netlify.app/'
   },
 ];
