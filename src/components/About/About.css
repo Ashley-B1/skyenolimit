@@ -54,6 +54,7 @@
 .about-desc {
   font-weight: 300;
   background-color: transparent;
+  text-align: center;
 }
 
 
@@ -61,6 +62,19 @@
 @media screen and (max-width: 480px) {
   .about {
     flex-direction: column;
+  }
+
+  .about-title {
+    visibility: hidden;
+  }
+
+  .about-desc {
+    overflow: hidden;
+    height: 12vh;
+  }
+
+  .ab2 {
+    visibility: hidden;
   }
 
   .about-left {

@@ -44,7 +44,7 @@ const Contact = () => {
               Keep In Touch!
             </h2>
             <p className='cn-note'>
-              Dragée chupa chups lollipop chocolate cake liquorice. Dragée gummies gummies tart cookie chocolate. Liquorice chocolate bar tootsie roll croissant sweet roll candy canes. Macaroon muffin caramels jelly-o liquorice oat cake bear claw sweet jelly beans. Cake sweet roll tootsie roll fruitcake halvah tootsie roll croissant soufflé.
+              Currently looking for a full time position where I can utilize both my skills as a software developer and an artist. I would also love to work with and on teams that allows for continuous learning, open communication, and a creative outlet. Hope to hear from you soon 😊.
             </p>
             <div className='cn-info'>
               <p className='cn-details'>

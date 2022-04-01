@@ -20,7 +20,7 @@ const Introduction = () => {
             </div>
           </div>
           <div className='intro-desc'>
-            Icing shortbread fruitcake lemon drops gummi bears biscuit. Biscuit shortbread cake bear claw chocolate cheesecake I love chocolate.
+            I am a tiny technomancer making her way in the tech world! I consider myself a virtual artist because I don't just code, I create art. 
           </div>
         </div>
       </div>
