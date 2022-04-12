@@ -18,7 +18,7 @@ export const products = [
   {
     id: 3,
     name: 'Opal Abyss',
-    img: 'https://i.ibb.co/R9DSsfX/opal-abyss.png',
+    img: 'https://i.ibb.co/s3S95q0/opal-Abyss1.png',
     link: 'https://opalabyss.netlify.app/'
   },
 ];
