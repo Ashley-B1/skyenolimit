@@ -17,8 +17,8 @@ export const products = [
   },
   {
     id: 3,
-    name: 'Scary Spaghetti',
-    img: 'https://i.ibb.co/8BwKpVv/screenshot-scaryspaghetti-netlify-app-2022-03-31-20-39-36.png',
-    link: 'https://scaryspaghetti.netlify.app/'
+    name: 'Opal Abyss',
+    img: 'https://i.ibb.co/R9DSsfX/opal-abyss.png',
+    link: 'https://opalabyss.netlify.app/'
   },
 ];
