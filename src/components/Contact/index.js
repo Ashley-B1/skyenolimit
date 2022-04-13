@@ -62,8 +62,12 @@ const Contact = () => {
                 <span className='cn-data'>stormi.seuneu@outlook.com</span>
               </p>
               <div className='social-media'>
-                <FaLinkedinIn className='sm-icon' />
-                <FaGithub className='sm-icon' />
+                <a className='sm-link' rel="noreferrer noopener" target="_blank" href="https://www.linkedin.com/in/ashley-skye-brown-8386291a9/">
+                  <FaLinkedinIn className='sm-icon' />
+                </a>
+                <a className='sm-link' rel="noreferrer noopener" target="_blank" href="https://github.com/Ashley-B1">
+                  <FaGithub className='sm-icon' />
+                </a>
               </div>
             </div>
           </div>
