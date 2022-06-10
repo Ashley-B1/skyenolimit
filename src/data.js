@@ -11,9 +11,9 @@ export const products = [
   },
   {
     id: 2,
-    name: 'Rabbit Hole',
-    img: 'https://i.ibb.co/JdrqnLS/rabbit-hole.png',
-    link: 'https://rabbit-hole-gp.herokuapp.com/'
+    name: 'Skye Search',
+    img: 'https://i.ibb.co/sQHmz5s/skye-search.png',
+    link: 'https://skye-search.netlify.app/'
   },
   {
     id: 3,
