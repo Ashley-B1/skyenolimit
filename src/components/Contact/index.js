@@ -8,9 +8,12 @@ import devPhoto from '../../images/dev-photos/dev1.jpeg';
 import { IoLocationOutline } from 'react-icons/io5';
 import { BsPhone } from 'react-icons/bs';
 import { FiMail } from 'react-icons/fi';
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 
 const Contact = () => {
+  const contactNum = '+1 (469)-501-5258';
+  const contactEmail = 's.brown.antra@gmail.com';
+
   return (
     <div className='contact-container' style={{background: `url(${contactBg}) center no-repeat`}}>
       <div className='contact-card'>
@@ -27,11 +30,11 @@ const Contact = () => {
             </p>
             <p className='dev-info'>
               <span className='info-title'>Email: </span>
-              <span className='cc-data'>stormi.seuneu@outlook.com</span>
+              <span className='cc-data'>{contactEmail}</span>
             </p>
             <p className='dev-info'>
               <span className='info-title'>Phone: </span>
-              <span className='cc-data'>+1 (469) 992-0704</span>
+              <span className='cc-data'>{contactNum}</span>
             </p>
             <div className='cc-resume'>
               <a className='resume-link' rel="noreferrer noopener" target="_blank" href='https://docs.google.com/document/d/1YVXkiY5soZpUe82Pbo9xyGI2XD-WC0jVfgSbT8PjjIU/edit?usp=sharing'>Resumé</a>
@@ -50,21 +53,18 @@ const Contact = () => {
               <p className='cn-details'>
                 <IoLocationOutline className='cn-icon' />
                 <span className='cn-data'>Dallas, TX </span>
-                <span className='relocate'>(Willing to relocate to Georgia, Oklahoma, or Arkansas)
+                <span className='relocate'>(Willing to relocate Anywhere)
                 </span>
               </p>
               <p className='cn-details'>
                 <BsPhone className='cn-icon' />
-                <span className='cn-data'>+1 (469) 992-0704</span>
+                <span className='cn-data'>{contactNum}</span>
               </p>
               <p className='cn-details'>
                 <FiMail className='cn-icon' />
-                <span className='cn-data'>stormi.seuneu@outlook.com</span>
+                <span className='cn-data'>{contactEmail}</span>
               </p>
               <div className='social-media'>
-                <a className='sm-link' rel="noreferrer noopener" target="_blank" href="https://www.linkedin.com/in/ashley-skye-brown-8386291a9/">
-                  <FaLinkedinIn className='sm-icon' />
-                </a>
                 <a className='sm-link' rel="noreferrer noopener" target="_blank" href="https://github.com/Ashley-B1">
                   <FaGithub className='sm-icon' />
                 </a>
