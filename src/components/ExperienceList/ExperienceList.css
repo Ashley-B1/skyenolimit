@@ -1,12 +1,34 @@
 .work-exp {
   padding: 2.7rem;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-experience {
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.exp-list {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 480px) {
   .work-exp {
+    align-items: center;
+  }
+
+  .my-experience {
+    text-align: center;
+  }
+
+  .exp-list {
+    width: 100vw;
     flex-direction: column;
-    justify-content: center;
+    align-self: center;
   }
 }

@@ -5,6 +5,7 @@
   background-color: #B197DE;
   border-radius: 2%;
   padding: .4rem;
+  margin: 0 2rem 0 0;
 }
 
 .experience::-webkit-scrollbar-track {
@@ -33,7 +34,7 @@
   background-color: inherit;
 }
 
-.exp-box:hover {
+.experience:hover, .exp-box:hover {
   transition: ease-out 1s;
   background-color: #B9B3F5;
 }
@@ -71,5 +72,7 @@
     width: 80vw;
     height: 40vh;
     margin-top: 1rem;
+    margin: 2rem 0 0 0;
+    /* margin-right: 0; */
   }
 }
