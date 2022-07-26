@@ -62,7 +62,7 @@ export const experience = [
       'Used the React Router for routing the Redux application to connect Redux and React to support routes.',
       'Used React Router and Redux to store the route parameters in the Redux store.',
       'Designed CSS3 based web pages that feature superb cross-browser compatibility and created scalable CSS templates for the web to enhance UX.',
-      'Handled RESTful API\’s which support JSON to access backend data payloads.',
+      'Handled RESTful API’s which support JSON to access backend data payloads.',
       'Used Node.js and Express for making calls (GET, POST, PUT, DELETE) to trigger or fetch data for RESTful API’s provided by the backend team.',
       'Utilized Git as the version control for project development',
       'Participated in daily stand-up meetings, periodic sprint reports, as well as other Agile/Scrum work activities.'
