@@ -1,0 +1,12 @@
+.work-exp {
+  padding: 2.7rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 480px) {
+  .work-exp {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

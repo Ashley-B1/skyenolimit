@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.product-list, .product-list * {
+  background-color: #353535;
+}
+
 .pl-info {
   width: 65%
 }
@@ -67,9 +71,5 @@
   .product-container {
     margin-top: 0.2rem;
     height: fit-content;
-  }
-
-  .pl-title {
-    /* border: red 2px solid */
   }
 }

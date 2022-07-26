@@ -18,7 +18,7 @@ const ProductList = () => {
           <div className='product-container'>
             <a href={item.link} target="_blank" rel="noreferrer noopener">
             <h2 className='product-heading'>{item.name}</h2>
-            <Product key={item.id} img={item.img} link={item.link} title={item.name} />
+            <Product key={item.id} img={item.img} />
             </a>
           </div>
         ))}

@@ -58,7 +58,6 @@
 }
 
 .intro-title-item {
-  /* background-color: yellow; */
   height: 50px;
   font-size: 30px;
   font-weight: bold;
@@ -68,7 +67,6 @@
 }
 
 .intro-img {
-  /* width: 100rem; */
   height: 100%;
   object-fit: cover;
   position: absolute;
@@ -100,10 +98,6 @@
     text-align: center;
     height: 100%;
   }
-
-  /* .intro-title {
-    border: solid pink 2px;
-  } */
 
   .intro-right {
     margin-top: 0;

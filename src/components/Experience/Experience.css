@@ -1,0 +1,75 @@
+.experience {
+  width: 30vw;
+  height: 40vh;
+  overflow: auto;
+  background-color: #B197DE;
+  border-radius: 2%;
+  padding: .4rem;
+}
+
+.experience::-webkit-scrollbar-track {
+  border-radius: 10px;
+  border-radius: 10px;
+  background-color: inherit;
+}
+
+.experience::-webkit-scrollbar {
+  width: 12px;
+  background-color: inherit;
+  border-radius: 10px;
+}
+
+.experience::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #97A3DE;
+}
+
+.exp-box {
+  background-color: #B197DE;
+  cursor: default;
+}
+
+.exp-box * {
+  background-color: inherit;
+}
+
+.exp-box:hover {
+  transition: ease-out 1s;
+  background-color: #B9B3F5;
+}
+
+.exp-intro * {
+  width: fit-content;
+  border-bottom: solid #fff 2px;
+}
+
+.exp-intro {
+  padding: .4rem;
+}
+
+.exp-heading {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.exp-info {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.exp-data {
+  padding: 1.4rem;
+}
+
+.skill-item {
+  list-style-type: '🌟';
+  padding: .4rem;
+}
+
+@media screen and (max-width: 480px) {
+  .experience {
+    width: 80vw;
+    height: 40vh;
+    margin-top: 1rem;
+  }
+}
