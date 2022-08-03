@@ -5,6 +5,10 @@
   background-color: #353535;
 }
 
+.about * {
+  background-color: transparent;
+}
+
 .about-left {
   flex: 1;
   display: flex;
@@ -12,12 +16,10 @@
   justify-content: center;
   position: relative;
   height: 100%;
-  background-color: transparent;
 }
 
 .about-right {
   flex: 1;
-  background-color: transparent;
 }
 
 .about-card.bg {
@@ -31,7 +33,7 @@
   width: 60%;
   height: 70vh;
   border-radius: 30px;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
 }
 
@@ -43,20 +45,44 @@
 
 .about-title {
   font-weight: 400;
-  background-color: transparent;
 }
 
-.about-sub {
+.about-sub, #about-box {
   margin: 20px 0px;
-  background-color: transparent;
+}
+
+#about-box {
+  width: 95%;
+  height: 13.2rem;
+  padding: .6rem .4rem;
+  overflow: auto;
+}
+
+#about-box::-webkit-scrollbar-track {
+  border-radius: 10px;
+  border-radius: 10px;
+  background-color: inherit;
+}
+
+#about-box::-webkit-scrollbar {
+  width: 12px;
+  background-color: inherit;
+  border-radius: 10px;
+}
+
+#about-box::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #97A3DE;
+}
+
+#about-box {
+  width: 100%;
 }
 
 .about-desc {
   font-weight: 300;
-  background-color: transparent;
   text-align: center;
 }
-
 
 
 @media screen and (max-width: 480px) {
@@ -65,16 +91,12 @@
   }
 
   .about-title {
-    visibility: hidden;
+    text-align: center;
+    margin-top: 1em;
   }
 
-  .about-desc {
-    overflow: hidden;
-    height: 12vh;
-  }
-
-  .ab2 {
-    visibility: hidden;
+  #about-box {
+    height: 20vh;
   }
 
   .about-left {
@@ -89,5 +111,11 @@
 
   .about-right {
     padding: 1.6rem;
+    flex: 2;
   }
+
+  .about-desc {
+    height: fit-content
+  }
+
 }

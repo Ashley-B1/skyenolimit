@@ -9,7 +9,7 @@
 .contact-card {
   background: rgba(0, 0, 0, 0.5);
   width: 100rem;
-  height: 80vh;
+  height: 100vh;
   min-height: 100%;
   max-height: 800px;
   padding: 0.5rem;
@@ -19,10 +19,6 @@
 .contact-card * {
   background-color: transparent;
 }
-/*
-.cc-left, .cc-right {
-  height: 100%
-} */
 
 .cc-left {
   padding: 0.5rem;
@@ -69,6 +65,7 @@
 
 .cc-right {
   flex: 1;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -122,10 +119,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  .contact-container {
-    /* width: 100vw;
-    height: 100vh; */
-  }
 
   .contact-card {
     width: 90vw;
@@ -137,11 +130,6 @@
     align-self: center;
     align-items: center;
     flex-direction: column;
-  }
-
-
-  .cc-right {
-    visibility: hidden;
   }
 
   .contact-note {
