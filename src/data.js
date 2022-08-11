@@ -28,7 +28,7 @@ export const experience = [
     skills: [
       'Developed web applications for publication for dyslexic students and tutors using React, Redux, React-Router, SCSS, and Javascript',
       'Created dyslexic friendly interfaces and new features for the existing web application.',
-      'Designed new user interfaces using React, SCSS, Redux, Node, and RESTful API to create cross-browser and cross-device applications.',
+      'Designed new user interfaces using React, SCSS, Redux, Node, and GraphQL API to create cross-browser and cross-device applications.',
       'Fetched data using GraphQL Apollo Client & Server to provide state to user interface components.',
       'Built aesthetically pleasing and dyslexic friendly user experience for the program using SCSS, creating scalable and reusable variables and mixins.',
       'Extensively used Git for version control and collaboration with colleagues and project manager in project development.',
