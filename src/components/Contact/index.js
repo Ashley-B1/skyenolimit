@@ -26,7 +26,7 @@ const Contact = () => {
             </p>
             <p className='dev-info'>
               <span className='info-title'>Profile: </span>
-              <span className='cc-data'>Frontend Engineer</span>
+              <span className='cc-data'>Fullstack Engineer</span>
             </p>
             <p className='dev-info'>
               <span className='info-title'>Email: </span>

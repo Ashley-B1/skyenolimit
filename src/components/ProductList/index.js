@@ -10,7 +10,7 @@ const ProductList = () => {
       <div className='pl-info'>
         <h1 className='pl-title'>Reach beyond the stars. Here's Skye.</h1>
         <p className='pl-desc'>
-        Front-end development helps me connect the abstract pieces of my thoughts into a virtual canvas. I am able to express my creativity and aesthetic through all of my projects.
+        Web development helps me connect the abstract pieces of my thoughts into a virtual canvas. I am able to express my creativity and aesthetic through all of my projects.
         </p>
       </div>
       <div className='pl-list'>

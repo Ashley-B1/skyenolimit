@@ -23,17 +23,18 @@ export const experience = [
   {
     id: 1,
     company: 'Tutor.com',
-    title: 'React Developer',
+    title: 'Fullstack Developer',
     date: 'June 2021 - June 2022',
     skills: [
       'Developed web applications for publication for dyslexic students and tutors using React, Redux, React-Router, SCSS, and Javascript',
       'Created dyslexic friendly interfaces and new features for the existing web application.',
       'Designed new user interfaces using React, SCSS, Redux, Node, and GraphQL API to create cross-browser and cross-device applications.',
-      'Fetched data using GraphQL Apollo Client & Server to provide state to user interface components.',
+      'Fetched data using GraphQL Server to provide state to user interface components.',
       'Built aesthetically pleasing and dyslexic friendly user experience for the program using SCSS, creating scalable and reusable variables and mixins.',
       'Extensively used Git for version control and collaboration with colleagues and project manager in project development.',
       'Used Agile software development methodologies in the development life cycle.',
       'Utilized programming languages such as Javascript as well as React library, Node environment, and GraphQL web services to create cross-browser and cross device applications.',
+      'Assisted the backend team to optimize database queries on the server-side.',
       'Promoted a seamless user experience by utilizing dynamic routing for the project using React Router.'
     ]
   },
