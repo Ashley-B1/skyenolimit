@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Contact.css';
 import contactBg from '../../images/bg-photos/contact-bg3.jpeg';
-import devPhoto from '../../images/dev-photos/dev1.jpeg';
+import devPhoto from '../../images/dev-photos/new-contact.jpeg';
 
 
 import { IoLocationOutline } from 'react-icons/io5';
