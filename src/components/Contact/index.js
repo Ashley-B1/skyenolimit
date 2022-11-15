@@ -13,6 +13,7 @@ import { FaGithub } from 'react-icons/fa';
 const Contact = () => {
   const contactNum = '+1 (469)-501-5258';
   const contactEmail = 's.brown.antra@gmail.com';
+  const updatedResume = 'https://docs.google.com/document/d/1XN3WINW0VJlTIwPkOu4cBG2U_JCa7KQ8LEd3jcZM_nI/edit'
 
   return (
     <div className='contact-container' style={{background: `url(${contactBg}) center no-repeat`}}>
@@ -37,7 +38,7 @@ const Contact = () => {
               <span className='cc-data'>{contactNum}</span>
             </p>
             <div className='cc-resume'>
-              <a className='resume-link' rel="noreferrer noopener" target="_blank" href='https://docs.google.com/document/d/1YVXkiY5soZpUe82Pbo9xyGI2XD-WC0jVfgSbT8PjjIU/edit?usp=sharing'>Resumé</a>
+              <a className='resume-link' rel="noreferrer noopener" target="_blank" href={updatedResume}>Resumé</a>
             </div>
           </div>
         </div>

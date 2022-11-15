@@ -17,7 +17,7 @@ const About = () => {
         <p className="about-sub">
           My name is Skye and I'm glad you found my portfolio! I've been working
           with computers all my life. I was actually introduced to my first
-          computer program in 1999. I've been coding for about 5 years and fell
+          computer program in 1999. I've been coding professionally for about 2 years and fell
           in love with frontend development.
         </p>
         <div id="about-box">
@@ -40,8 +40,8 @@ const About = () => {
           </p>
           <p className="about-desc ab2">
             I build out wireframes using paper, dry erase boards, and Figma. I
-            use resources like geeks for geeks, W3 Schools, MDN, and stack
-            overflow for troubleshooting. I am immersed in all my projects and
+            use resources like Geeks for Geeks, MDN, and Stack
+            Overflow for troubleshooting. I am immersed in all my projects and
             want to dive deeper into development to see how to make fully
             functional and user-friendly websites.
           </p>
