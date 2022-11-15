@@ -9,11 +9,13 @@ import { IoLocationOutline } from 'react-icons/io5';
 import { BsPhone } from 'react-icons/bs';
 import { FiMail } from 'react-icons/fi';
 import { FaGithub } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
-  const contactNum = '+1 (469)-501-5258';
-  const contactEmail = 's.brown.antra@gmail.com';
+  const contactNum = '+1 (469)-992-0704';
+  const contactEmail = 'skye.brown.k@gmail.com';
   const updatedResume = 'https://docs.google.com/document/d/1XN3WINW0VJlTIwPkOu4cBG2U_JCa7KQ8LEd3jcZM_nI/edit'
+  const linkedIn = 'https://www.linkedin.com/in/ashley-brown-8386291a9/'
 
   return (
     <div className='contact-container' style={{background: `url(${contactBg}) center no-repeat`}}>
@@ -68,6 +70,9 @@ const Contact = () => {
               <div className='social-media'>
                 <a className='sm-link' rel="noreferrer noopener" target="_blank" href="https://github.com/Ashley-B1">
                   <FaGithub className='sm-icon' />
+                </a>
+                <a className='sm-link' rel="noreferrer noopener" target="_blank" href={linkedIn}>
+                  <FaLinkedin className='sm-icon' />
                 </a>
               </div>
             </div>
