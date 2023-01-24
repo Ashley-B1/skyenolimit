@@ -7,9 +7,9 @@ export const products = [
   },
   {
     id: 2,
-    name: 'Justice Dock',
-    img: 'https://i.ibb.co/yQz7rrS/justicedock1.png',
-    link: 'https://justicedock.herokuapp.com/-search.netlify.app/'
+    name: 'Skye Search',
+    img: 'https://i.ibb.co/GtYWywT/screenshot-skye-searchredo-netlify-app-2023-01-24-13-10-03.png',
+    link: 'https://skye-searchredo.netlify.app/'
   },
   {
     id: 3,
