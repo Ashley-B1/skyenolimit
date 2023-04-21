@@ -12,10 +12,10 @@ import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
-  const contactNum = '+1 (469)-992-0704';
+  const contactNum = '+1 (682) 337 9530';
   const contactEmail = 'skye.brown.k@gmail.com';
-  const updatedResume = 'https://docs.google.com/document/d/1XN3WINW0VJlTIwPkOu4cBG2U_JCa7KQ8LEd3jcZM_nI/edit'
-  const linkedIn = 'https://www.linkedin.com/in/ashley-brown-8386291a9/'
+  const updatedResume = 'https://docs.google.com/document/d/13NL99kElf2TwYIj0YcqQyAfXdPRJ3IJ8/edit?usp=sharing&ouid=111390831775550629055&rtpof=true&sd=true'
+  const linkedIn = 'https://www.linkedin.com/in/skye-brown-8386291a9/'
 
   return (
     <div className='contact-container' style={{background: `url(${contactBg}) center no-repeat`}}>
@@ -30,14 +30,6 @@ const Contact = () => {
             <p className='dev-info'>
               <span className='info-title'>Profile: </span>
               <span className='cc-data'>Fullstack Engineer</span>
-            </p>
-            <p className='dev-info'>
-              <span className='info-title'>Email: </span>
-              <span className='cc-data'>{contactEmail}</span>
-            </p>
-            <p className='dev-info'>
-              <span className='info-title'>Phone: </span>
-              <span className='cc-data'>{contactNum}</span>
             </p>
             <div className='cc-resume'>
               <a className='resume-link' rel="noreferrer noopener" target="_blank" href={updatedResume}>Resumé</a>
