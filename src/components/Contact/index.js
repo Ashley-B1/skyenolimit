@@ -14,8 +14,9 @@ import { FaLinkedin } from 'react-icons/fa';
 const Contact = () => {
   const contactNum = '+1 (682) 337 9530';
   const contactEmail = 'skye.brown.k@gmail.com';
-  const updatedResume = 'https://docs.google.com/document/d/13NL99kElf2TwYIj0YcqQyAfXdPRJ3IJ8/edit?usp=sharing&ouid=111390831775550629055&rtpof=true&sd=true'
+  const updatedResume = 'https://docs.google.com/document/d/1q_CFi3prvzrKbDYYxKd5b1vmxxK74eOHhe08LZkxl7o/edit'
   const linkedIn = 'https://www.linkedin.com/in/skye-brown-8386291a9/'
+  const gitHub = 'https://github.com/Ashley-B1'
 
   return (
     <div className='contact-container' style={{background: `url(${contactBg}) center no-repeat`}}>
@@ -60,7 +61,7 @@ const Contact = () => {
                 <span className='cn-data'>{contactEmail}</span>
               </p>
               <div className='social-media'>
-                <a className='sm-link' rel="noreferrer noopener" target="_blank" href="https://github.com/Ashley-B1">
+                <a className='sm-link' rel="noreferrer noopener" target="_blank" href={gitHub}>
                   <FaGithub className='sm-icon' />
                 </a>
                 <a className='sm-link' rel="noreferrer noopener" target="_blank" href={linkedIn}>
