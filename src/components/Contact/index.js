@@ -48,7 +48,7 @@ const Contact = () => {
             <div className='cn-info'>
               <p className='cn-details'>
                 <IoLocationOutline className='cn-icon' />
-                <span className='cn-data'>Dallas, TX </span>
+                <span className='cn-data'>Fort Worth, TX </span>
                 <span className='relocate'>(Willing to relocate Anywhere)
                 </span>
               </p>

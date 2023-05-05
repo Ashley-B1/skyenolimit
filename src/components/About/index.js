@@ -17,12 +17,12 @@ const About = () => {
         <p className="about-sub">
           My name is Skye and I'm glad you found my portfolio! I've been working
           with computers all my life. I was actually introduced to my first
-          computer program in 1999. I've been coding professionally for about 2 years and fell
-          in love with frontend development.
+          computer program in 1999. I've been coding professionally for about 3 years and fell
+          in love with fullstack development.
         </p>
         <div id="about-box">
           <p className="about-desc">
-            I am a frontend developer who took her love of technology and art
+            I am a fullstack developer who took her love of technology and art
             and turned it into a career. I'm here to break the barriers down for
             women, especially WOC in the STEM field. The first time I ever
             touched a computer was in 1999! I was 2 years old when my granny, a
