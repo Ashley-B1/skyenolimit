@@ -44,7 +44,7 @@ export const experience = [
   },
   {
     id: 2,
-    company: 'AssignRef',
+    company: 'Assign Ref',
     title: 'Fullstack Developer',
     date: 'April 2023 - CURRENT',
     skills: [
