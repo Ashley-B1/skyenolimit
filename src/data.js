@@ -17,6 +17,12 @@ export const products = [
     img: 'https://i.ibb.co/s3S95q0/opal-Abyss1.png',
     link: 'https://opalabyss.netlify.app/'
   },
+  {
+    id: 4,
+    name: 'AssignRef',
+    img: 'https://i.ibb.co/9tXNR61/homepage.png',
+    link: 'https://assignref.azurewebsites.net/'
+  }
 ];
 
 export const experience = [
