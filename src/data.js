@@ -19,10 +19,10 @@ export const products = [
   },
   {
     id: 4,
-    name: 'AssignRef',
+    name: 'Assign Ref',
     img: 'https://i.ibb.co/9tXNR61/homepage.png',
     link: 'https://assignref.azurewebsites.net/'
-  }
+  },
 ];
 
 export const experience = [
