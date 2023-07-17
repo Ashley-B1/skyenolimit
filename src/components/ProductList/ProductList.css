@@ -12,6 +12,7 @@
 
 .pl-info {
   width: 65%;
+  margin-bottom: 20px;
 }
 
 .pl-title {
@@ -20,7 +21,20 @@
 }
 
 .pl-desc {
-  margin: 20px 0px;
+  margin: 20px 0 0 0;
+}
+
+.pl-warn {
+  font-style: italic;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 200;
+}
+
+.inline-icon {
+  margin-right: 5px;
 }
 
 .pl-list {
@@ -55,6 +69,16 @@
   transition: ease-in 0.2s;
   font-size: 1.9rem;
   color: #DEAAFA;
+}
+
+.product-warning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-icon {
+  margin-left: .5rem;
 }
 
 @media screen and (max-width: 480px) {

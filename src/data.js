@@ -3,25 +3,29 @@ export const products = [
     id: 1,
     name: 'Granny Sues',
     img: 'https://i.ibb.co/QXFQ412/grannysues.png',
-    link: 'https://grannysues.netlify.app/'
+    link: 'https://grannysues.netlify.app/',
+    isComplete: false,
   },
   {
     id: 2,
     name: 'Skye Search',
     img: 'https://i.ibb.co/GtYWywT/screenshot-skye-searchredo-netlify-app-2023-01-24-13-10-03.png',
-    link: 'https://skye-searchredo.netlify.app/'
+    link: 'https://skye-searchredo.netlify.app/',
+    isComplete: true,
   },
   {
     id: 3,
     name: 'Opal Abyss',
     img: 'https://i.ibb.co/s3S95q0/opal-Abyss1.png',
-    link: 'https://opalabyss.netlify.app/'
+    link: 'https://opalabyss.netlify.app/',
+    isComplete: false,
   },
   {
     id: 4,
     name: 'Assign Ref',
     img: 'https://i.ibb.co/9tXNR61/homepage.png',
-    link: 'https://assignref.azurewebsites.net/'
+    link: 'https://assignref.azurewebsites.net/',
+    isComplete: true,
   },
 ];
 

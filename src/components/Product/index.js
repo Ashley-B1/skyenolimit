@@ -1,18 +1,24 @@
-import React from 'react';
+import React from "react";
 
-import './Product.css';
+import "./Product.css";
 
-const Product = ({ img }) => {
+const Product = ({ img, isComplete }) => {
   return (
-    <div className='product'>
-      <div className='product-browser'>
-        <div className='product-circle pc1'></div>
-        <div className='product-circle pc2'></div>
-        <div className='product-circle pc3'></div>
+    <div className="product">
+      <div className="product-browser">
+        <div className="product-circle pc1"></div>
+        <div className="product-circle pc2"></div>
+        <div className="product-circle pc3"></div>
       </div>
-      <img src={img} alt='app' className='product-image'/>
+      {isComplete ? (
+          <img src={img} alt="app" className="product-image" />
+      ) : (
+        <div className="wrapper">
+          <img src={img} alt="app" className="product-image" />
+        </div>
+      )}
     </div>
-  )
-}
+  );
+};
 
-export default Product
+export default Product;

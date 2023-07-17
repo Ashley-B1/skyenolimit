@@ -7,6 +7,9 @@
   color: #fff;
 }
 
+* :not(#product-warning) {
+}
+
 body {
   height: 100vh;
 }
