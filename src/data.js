@@ -27,6 +27,13 @@ export const products = [
     link: 'https://assignref.azurewebsites.net/',
     isComplete: true,
   },
+  {
+    id: 5,
+    name: 'Keef Kitchen',
+    img: 'https://i.ibb.co/tzcbTxf/complete-home.png',
+    link: 'https://assignref.azurewebsites.net/',
+    isComplete: true,
+  },
 ];
 
 export const experience = [
@@ -50,7 +57,7 @@ export const experience = [
     id: 2,
     company: 'Assign Ref',
     title: 'Fullstack Developer',
-    date: 'April 2023 - CURRENT',
+    date: 'April 2023 - June 2023',
     skills: [
       'Collaborated with other team members and provided feedback to ensure the successful delivery of high-quality software products.',
       'Proactively identified and resolved issues that arose within code or in collaboration with other engineers.',
