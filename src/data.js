@@ -31,7 +31,7 @@ export const products = [
     id: 5,
     name: 'Keef Kitchen',
     img: 'https://i.ibb.co/tzcbTxf/complete-home.png',
-    link: 'https://assignref.azurewebsites.net/',
+    link: 'https://thekeefkitchen-5ad8a18f7185.herokuapp.com/',
     isComplete: true,
   },
 ];
