@@ -31,7 +31,7 @@ export const products = [
     id: 5,
     name: 'Keef Kitchen',
     img: 'https://i.ibb.co/tzcbTxf/complete-home.png',
-    link: 'https://www.keefkitchen.com/',
+    link: 'www.keefkitchen.com/',
     isComplete: true,
   },
 ];
